@@ -1,0 +1,8 @@
+
+Z	java:S106`"9Replace this use of System.out or System.err by a logger.(ñ—¸½úÿÿÿÿ8æĞ³ûÈ/
+n
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(¸ªÛğùÿÿÿÿ8„­ûÈ/
+k
+java:S20957"IUse try-with-resources or close this "PrintWriter" in a "finally" clause.(Ï³ê¨úÿÿÿÿ8„­ûÈ/
+n
+java:S2095Z"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ö½•İşÿÿÿÿ8›Ñ³ûÈ/
