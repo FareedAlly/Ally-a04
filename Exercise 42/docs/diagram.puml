@@ -1,0 +1,10 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class Solution42
+{
+    + void main
+    + List<String> readInput
+    + void output
+}
+@enduml
