@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class Solution41
+{
+    + void main
+    + String input()
+    + Inventory readJSON()
+    + boolean output(Product search)
+}
+
+
+class Inventory
+{
+    + void product(String name, double price, int quantity)
+    + Product search(String name)
+}
+
+class Product
+{
+    + Product(String name, double price, int quantity)
+    + String getName()
+    + double getPrice()
+    + int getQuantity()
+}
+
+
+Solution41 -- Inventory
+Product --> Inventory
+@enduml
