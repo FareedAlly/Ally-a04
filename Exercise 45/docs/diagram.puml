@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class Solution45
+{
+    + void main
+    + void search(String inFile, String outFile)
+    + Path getPath(String name)
+    + void replace(Scanner in, String outFile)
+}
+@enduml
