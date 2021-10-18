@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class Solution43
+{
+    + void main
+    + boolean input
+}
+
+class website
+{
+    + void generate
+    + void generateIndex
+    + generateDirectory
+}
+
+Solution43 o-- website
+
+
+@enduml
