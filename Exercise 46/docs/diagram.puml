@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class Solution46
+{
+    + void main
+    + Map<String, Integer> search()
+    + Map<String, Integer> sort(Map<String, Integer> map)
+    + String createHistogram(Map<String, Integer> sortedMap)
+}
+@enduml
